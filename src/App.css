@@ -1,0 +1,105 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.nossoApp {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 80px 640px 50px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 10px;
+    height: 20px;
+}
+
+.header:hover {
+    color: #f39508;
+    cursor: pointer;
+}
+
+.formsCompleto {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin-left: auto;
+}
+
+.forms {
+    text-align: left;
+    display: grid;
+    grid-template-rows: 35px 35px 35px 35px 35px 100px;
+    grid-template-columns: 70%;
+}
+
+.imagem1 {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.App-link {
+    color: #0f0f0f;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.nossoApp {
+    background-color: #FFFDF8;
+}
+
+.botao {
+    margin-left: 53%;
+    background-color: rgb(180, 37, 37);
+    height: 35px;
+    width: 250px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+}
+
+.botao:hover {
+    background-color: #f39508;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+.navmenu {
+    background-color: #FFFBEF;
+    color: black;
+    height: 60px;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #FFFBEF;
+    color: black;
+    height: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
